@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none !important;
+	list-style-type: none !important;
+}
+body {
+	font-family: Nunito !important;
+	font-weight: 700;
+	color: $black-color;
+}
+html::-webkit-scrollbar {
+	width: 1rem;
+}
+html::-webkit-scrollbar-track {
+	background: #f2f2f2;
+}
+html::-webkit-scrollbar-thumb {
+	background: $primary-color;
+	// border-radius: 50px;
+}
+// font-families
+@font-face {
+	font-family: mishella;
+	src: url(../font@face/Mishella-w1Pdw.otf);
+}
+// import-from-google-fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&display=swap');
+// poppins
+// ///////
+@font-face {
+	font-family: p-r;
+	src: url(../font@face/poppins/PoppinsRegular-B2Bw.otf);
+}
+@font-face {
+	font-family: p-m;
+	src: url(../font@face/poppins/PoppinsMedium-1JPv.otf);
+}
+@font-face {
+	font-family: p-b;
+	src: url(../font@face/poppins/PoppinsBold-GdJA.otf);
+}
+@font-face {
+	font-family: p-smb;
+	src: url(../font@face/poppins/PoppinsSemibold-8l8n.otf);
+}
+@font-face {
+	font-family: p-xb;
+	src: url(../font@face/poppins/PoppinsExtrabold-zDdL.otf);
+}
+@font-face {
+	font-family: p-blk;
+	src: url(../font@face/poppins/PoppinsBlack-VxOe.otf);
+}
+// nunito
+// //////
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&display=swap');
+@font-face {
+	font-family: n-r;
+	src: url(../font@face/nunito/Nunito-Regular.ttf);
+}
+@font-face {
+	font-family: n-sm;
+	src: url(../font@face/nunito/Nunito-SemiBold.ttf);
+}
+@font-face {
+	font-family: n-b;
+	src: url(../font@face/nunito/Nunito-Bold.ttf);
+}
+@font-face {
+	font-family: n-xb;
+	src: url(../font@face/nunito/Nunito-ExtraBold.ttf);
+}
+@font-face {
+	font-family: n-blk;
+	src: url(../font@face/nunito/Nunito-Black.ttf);
+}
